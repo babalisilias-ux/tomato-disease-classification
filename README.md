@@ -27,6 +27,8 @@ Rather than training a neural network from scratch (which needs huge data and co
 The training curves show no overfitting (validation accuracy tracks above training accuracy, validation loss decreases steadily). Most misclassifications occur between visually similar diseases (e.g. Early blight vs. Septoria leaf spot).
 
 Output figures: `sample_images.png`, `training_curves.png`, `confusion_matrix.png`.
+![Training curves](training_curves.png)
+![Confusion matrix](confusion_matrix.png)
 
 ## Classes
 
