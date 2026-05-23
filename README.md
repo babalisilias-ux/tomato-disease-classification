@@ -15,7 +15,8 @@ This project classifies tomato leaves as healthy or as having one of 9 common di
 | Validation images | 3,632 |
 
 The model shows no overfitting. Most errors occur between visually similar diseases (e.g. Early blight vs. Septoria leaf spot).
-
+![Training curves](training_curves.png)
+![Confusion matrix](confusion_matrix.png)
 ## Approach
 
 1. Compute image dataset from PlantVillage (tomato classes only).
