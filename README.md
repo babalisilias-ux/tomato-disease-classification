@@ -24,11 +24,13 @@ Rather than training a neural network from scratch (which needs huge data and co
 | Classes | 10 (healthy + 9 diseases) |
 | Validation images | 3,632 |
 
+![Training curves](training_curves.png)
+![Confusion matrix](confusion_matrix.png)
+
 The training curves show no overfitting (validation accuracy tracks above training accuracy, validation loss decreases steadily). Most misclassifications occur between visually similar diseases (e.g. Early blight vs. Septoria leaf spot).
 
 Output figures: `sample_images.png`, `training_curves.png`, `confusion_matrix.png`.
-![Training curves](training_curves.png)
-![Confusion matrix](confusion_matrix.png)
+
 
 ## Classes
 
